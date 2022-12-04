@@ -105,7 +105,7 @@ const Greeting = () => {
             <ButtonImage
               title="@hanivanrizky"
               href="https://hanivanrizky.t.me"
-              src="/img/send.svg"
+              src="/img/telegram.svg"
               alt="telegram"
               width={18}
               height={18}
