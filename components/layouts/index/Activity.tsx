@@ -2,13 +2,13 @@ import ImageCard from "@/components/stateless/Image-Card";
 
 const Activity = () => {
   return (
-    <section className="h-screen bg-bg-light text-bg-dark dark:text-bg-light dark:bg-bg-dark pt-10 transition">
+    <section className="bg-bg-light text-bg-dark dark:text-bg-light dark:bg-bg-dark py-10 transition">
       <div className="container text-center">
         <div className="flex justify-center">
           <h3 className="mr-2 text-2xl font-semibold">What I Do</h3>
           <p className="self-center font-medium">私がやること</p>
         </div>
-        <div className="grid justify-items-center grid-cols-2 gap-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10 mt-10">
           <ImageCard
             src="/img/dotfiles.webp"
             width={450}

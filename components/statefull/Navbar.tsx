@@ -21,7 +21,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="hidden md:block font-medium">
+    <nav className="font-medium">
       <ul className="flex gap-8">
         <li>
           <Link

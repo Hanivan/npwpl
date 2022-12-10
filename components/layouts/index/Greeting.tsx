@@ -57,7 +57,7 @@ const Greeting = () => {
               alt="Hanivan Rizky S"
               width={264}
               height={264}
-              className="order-1 md:order-2 bg-red-500 mx-auto md:mx-0"
+              className="order-1 md:order-2 bg-bg-dark mx-auto md:mx-0"
             />
           ) : (
             <Image
@@ -68,7 +68,7 @@ const Greeting = () => {
               alt={`${data.location || "Hanivan Rizky S"}`}
               width={264}
               height={264}
-              className="order-1 md:order-2 bg-red-500 mx-auto md:mx-0"
+              className="order-1 md:order-2 bg-bg-dark mx-auto md:mx-0 shadow-md rounded"
             />
           )}
         </div>
